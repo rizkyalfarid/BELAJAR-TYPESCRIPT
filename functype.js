@@ -1,3 +1,4 @@
+"use strict";
 // tanpa return (tipe void)
 // const cetakNama = (nama : string) => {
 //   console.log("Hello, " + nama);
@@ -8,7 +9,7 @@
 //   return luas;
 // }
 // console.log(luasPersegiPanjang(7,4));
-var cekGanjilGenap = function (angka) {
+const cekGanjilGenap = (angka) => {
     return angka % 2 === 0 ? "Genap" : "Ganjil";
 };
 console.log(cekGanjilGenap(7));

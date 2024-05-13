@@ -1,3 +1,4 @@
+"use strict";
 // // PARAMETER IMPLISIT 
 // //TANPA PARAMETER 
 // const helloWorld = () => {
@@ -14,7 +15,7 @@
 // }
 // const persegi1 = luasPersegiPanjang(7,7)
 // console.log(persegi1);
-var daftarNama = ["Idjes", "Tjoeaon", "Hubner", "Ernando", "Struijk", "Jenner"];
-daftarNama.forEach(function (nama) {
+const daftarNama = ["Idjes", "Tjoeaon", "Hubner", "Ernando", "Struijk", "Jenner"];
+daftarNama.forEach((nama) => {
     console.log(nama);
 });
